@@ -1,0 +1,39 @@
+body {
+	background: #B6E5DF;
+}
+
+#wrap{
+	width: 960px;
+	border: solid 1px white;
+	height: 100vh;
+	margin: 0 auto;
+}
+#banner{
+	height: 150px;
+	background-color: red;
+}
+nav{}
+
+nav ul{
+	border: solid 1px black;
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	border: solid 1px green;
+	width:20%;
+	display: inline-block;
+	text-align: center;
+}
+nav ul li:hover{
+	background: #B6D5E5;
+	color:white;
+}
+section{
+	width: 45%;
+	height: 30%;
+	background:#85C7BF;
+	display: inline-block;
+	border-radius: 10px;
+}
